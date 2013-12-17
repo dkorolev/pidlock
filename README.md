@@ -40,7 +40,7 @@ If you do not do so, different invocations of the same script with different com
 
 If all the checks pass, the process is not being spawned.
 
-## Guarantees
+### Guarantees
 
 None.
 
