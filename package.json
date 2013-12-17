@@ -1,6 +1,6 @@
 {
     "name": "pidlock",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Simple PID-based solution to ensure at most one instance of a node.js app is running.",
     "author": {
         "email": "dmitry.korolev@gmail.com",
@@ -57,7 +57,6 @@
     },
     "main": "lib/pidlock.js",
     "dependencies": {
-        "lockfile": "*",
         "mkpath": "*",
         "underscore": "*"
     }
