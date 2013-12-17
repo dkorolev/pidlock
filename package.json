@@ -1,0 +1,64 @@
+{
+    "name": "pidlock",
+    "version": "1.0.0",
+    "description": "Simple PID-based solution to ensure at most one instance of a node.js app is running.",
+    "author": {
+        "email": "dmitry.korolev@gmail.com",
+        "url": "http://dimakorolev.com/",
+        "name": "Dima Korolev"
+    },
+    "homepage": "https://github.com/dkorolev/pidlock",
+    "repository": {
+        "url": "git@github.com:dkorolev/pidlock.git",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/dkorolev/pidlock/issues"
+    },
+    "license": "MIT",
+    "licenses": [{
+        "type": "MIT"
+    }],
+    "tags": [
+        "lock",
+        "locking",
+        "linux",
+        "file",
+        "proc",
+        "pid",
+        "pidlock",
+        "guard",
+        "single",
+        "instance",
+        "lockfile",
+        "fs",
+        "O_EXCL"
+    ],
+    "keywords": [
+        "lock",
+        "locking",
+        "linux",
+        "file",
+        "proc",
+        "pid",
+        "pidlock",
+        "guard",
+        "single",
+        "instance",
+        "lockfile",
+        "fs",
+        "O_EXCL"
+    ],
+    "engines": {
+        "node": ">= 0.8.x"
+    },
+    "scripts": {
+        "test": "./test.sh"
+    },
+    "main": "lib/pidlock.js",
+    "dependencies": {
+        "lockfile": "*",
+        "mkpath": "*",
+        "underscore": "*"
+    }
+}
