@@ -46,6 +46,6 @@ if ! diff <(cat $OUTPUT_DIR/says-* | sort) $OUTPUT_DIR/chorus ; then
     exit 1
 else
     rm -rf $BASE_OUTPUT_DIR
-    echo -e '\e[1;32mOK\e[0m'
+    echo -e '\e[1;32mPASS\e[0m'
     exit 0
 fi
