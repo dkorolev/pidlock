@@ -38,11 +38,11 @@ Dynamic parameters will have to be passed via flags or ```process.env``` to avoi
 
 If you do not do so, different invocations of the same script with different command lines would be considered different apps and they will fight for the lock.
 
-If all the checks pass, the process is not being spawned.
-
 ### Guarantees
 
 None.
+
+"Buy a toaster"  -- Jos Visser.
 
 In case of uncertainty, ```pidlock``` errs on the conversative side, assuming that if the server runs under some supervisor and that someone would eventually get notified should it start crashlooking. Although crashlooping could primarily occur if some file/path permissions are off, which would be easy to see right away.
 
